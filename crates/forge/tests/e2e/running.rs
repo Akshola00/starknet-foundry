@@ -736,7 +736,7 @@ fn validate_init(temp: &TempDir, validate_snforge_std: bool) {
         ""
     };
 
-    let expected_gitignore = formatdoc!(
+    let expected_gitignore = indoc!(
         r#"
         .snfoundry_cache/
         snfoundry_trace/ 
